@@ -16,6 +16,6 @@ COPY patent_template_mapping.json /opt/data/patent_template_mapping.json
 
 COPY filing_template_mapping.json /opt/data/filing_template_mapping.json
 
-RUN chmod +x /opt/bin/starth.sh
+RUN chmod +x /opt/bin/start.sh
 
 ENTRYPOINT ["/opt/bin/start.sh"]
